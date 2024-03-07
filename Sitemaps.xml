@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <html xmlns="http://www.w3.org/1999/xhtml" http://www.sitemaps.org/schemas/sitemap/0.9</html>
+  <?xml version="1.0" encoding="UTF-8"?>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rathana.online.store</title>
+</head>
+<body>
+  <?xml version="1.0" encoding="UTF-8"?>
+  <?xml-stylesheet type="text/xsl" href="https://rathanaphon.github.io/wedpage/4418385/sitemap.xsl"?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>
+  <url>
+     <loc>https://rathanaphon.github.io/wedpage/</loc>
+     <lastmod>2024-03-07T17:47:20+00:00</lastmod>
+     <changefreq>daily</changefreq>
+     <priority>1.0000</priority>
+ </url>
+</urlset>
+      <script src=" http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd?features=default"></script>
+</body>
+</html>
