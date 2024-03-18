@@ -5,8 +5,12 @@
 <html>
   <head>
     <title>Simple Map</title>
+    <meta charset="UTF-8">
+    <html xmlns="http://www.w3.org/1999/xhtml"></html>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-
+    <link rel="preload" href="https://maps.gstatic.com/maps-api-v3/embed/js/56/4/init_embed.js" nonce="AXxwr14OjNQH-mKo9IbL4w" as="script" />
     <link rel="stylesheet" type="text/css" href=".css/style.css" />
     <script type="module" src="https://rathanaphon.github.io./index.js"></script>
     <style>
@@ -43,8 +47,6 @@ body {
     <!-- prettier-ignore -->
     <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
         ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "weekly"});</script>
-  </body>
-</html>
 <!-- [END maps_map_simple] -->
 <script type="text/JavaScript">
   let map;
@@ -55,6 +57,7 @@ async function initMap() {
   map = new Map(document.getElementById("map"), {
     center: { lat: -34.397, lng: 150.644 },
     zoom: 8,
+    mapid: "90f87356969d889",
   });
 }
 
