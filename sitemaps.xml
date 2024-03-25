@@ -31,7 +31,7 @@
    <repository>
      <id>github</id>
      <name>https://rathanphon.github.io.com/</name>
-     <url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
+     <url>https://</url>
    </repository>
 </distributionManagement>
   <dependencies>
